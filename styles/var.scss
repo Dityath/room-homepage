@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
+
+// font
+
+@mixin font-regular() {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+}
+
+@mixin font-semi-bold() {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+}
+
+@mixin font-bold() {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+}
+
+// color
+
+$dark-gray: hsl(0, 0%, 63%);
+$black: hsl(0, 0%, 0%);
+$white: hsl(0, 0%, 100%);
+$very-dark-gray: hsl(0, 0%, 27%);
