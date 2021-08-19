@@ -128,6 +128,7 @@
     
             .third-p {
                 @include font-regular;
+                margin-top: 15px;
                 color: $dark-gray;
                 font-size: 12px;
                 line-height: 1.5;
